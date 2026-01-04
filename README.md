@@ -140,5 +140,3 @@ This application provides decision support only. Farmers should consult agricult
 
 ---
 
-## Author
-Aditya Magar
