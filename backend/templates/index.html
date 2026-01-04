@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AgroVision AI</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div class="overlay"></div>
+
+<!-- NAVBAR HEADER -->
+<header class="navbar">
+    <div class="logo">
+        AgroVision AI
+    </div>
+    <div class="tagline">
+        AI-powered crop disease detection
+    </div>
+</header>
+
+<!-- MAIN CONTENT -->
+<main class="main-content">
+    <div class="card">
+        <form id="upload-form">
+            <input type="file" id="image" accept="image/*" required>
+
+            <img id="preview" style="display:none;" />
+
+            <button type="submit">Analyze Leaf</button>
+        </form>
+
+        <canvas id="confidenceChart" width="200" height="200"></canvas>
+
+        <div id="result" class="result-box"></div>
+    </div>
+</main>
+
+<script src="/static/js/main.js"></script>
+</body>
+</html>
