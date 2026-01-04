@@ -128,9 +128,10 @@ http://127.0.0.1:5000
 ---
 
 ## Screenshots
-- **homepage.png** – Landing page with logo and upload card  
-- **image_upload.png** – Leaf image preview after upload  
-- **prediction_output.png** – Disease prediction, confidence chart, and remedies  
+- [Homepage UI](screenshots/homepage.png) – Landing page with logo and upload card  
+- [Image Upload Preview](screenshots/image_upload.png) – Leaf image preview after upload  
+- [Prediction Output](screenshots/prediction_output.png) – Disease prediction, confidence chart, and remedies  
+ 
 
 ---
 
