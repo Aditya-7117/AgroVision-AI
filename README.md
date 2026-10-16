@@ -6,6 +6,14 @@ AgroVision AI is a deep learning–based web application designed to help farmer
 
 ---
 
+## Relation to the published paper
+
+My paper "Plant Disease Detection Using Convolutional Neural Networks with PyTorch" (International
+Journal of Scientific Research and Engineering Development, Vol. 8, Issue 4, 2025) describes the
+original work, which was written in PyTorch on a machine I no longer have access to. That code could
+not be recovered. This repository is a later re-implementation in TensorFlow/Keras with MobileNetV2,
+and the figures below come from this code, not from the paper.
+
 ## Project Phases & Model Evolution
 
 ### Phase 1 – Custom CNN (Initial Approach)
